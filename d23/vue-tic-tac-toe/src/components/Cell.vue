@@ -1,5 +1,5 @@
 <template>
-
+  <td class="cell" @click="strike">{{ mark }}</td>
 </template>
 
 <script>
@@ -52,4 +52,3 @@ tr:nth-of-type(3) .cell {
   border-bottom-color: transparent;
 }
 </style>
-<td class="cell">{{ mark }}</td>
